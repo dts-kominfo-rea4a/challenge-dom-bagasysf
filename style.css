@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-radius: border-box;
+  /* border: 1px solid dimgray; */
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+input,
+button,
+ul,
+li {
+  all: unset;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  gap: 1em;
+}
+
+.heading {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.sub-heading {
+  color: dimgray;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-input {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.input {
+  border: 1px solid dimgray;
+  height: 2rem;
+  border-radius: 0.3rem;
+  width: 100%;
+  padding-left: 1.4rem;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  padding: 0.4rem 1.5rem;
+  border-radius: 0.3rem;
+}
+
+.output {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ul-output {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  align-items: start;
+  border: 1px solid dimgray;
+}
+
+@media only screen and (min-width: 1024px) {
+  body {
+    margin: 0 30%;
+  }
+}
